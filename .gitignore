@@ -1,0 +1,17 @@
+# Secret keys - never upload this
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Virtual environment if you create one later
+venv/
+env/
