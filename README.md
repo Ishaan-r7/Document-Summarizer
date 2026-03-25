@@ -1,21 +1,15 @@
 # Real-Time Document Summarization Pipeline
 
+<img width="526" height="628" alt="image" src="https://github.com/user-attachments/assets/db6e8c1c-839e-490a-b5eb-87d1bf193c3a" />
+
+
 A production-style document summarization system that uses Apache Kafka for 
 real-time streaming, LangChain and Google Gemini API for intelligent summarization, 
 and Streamlit for an interactive user interface.
 
-<img width="731" height="471" alt="image" src="https://github.com/user-attachments/assets/96c30838-6973-4444-92ff-f5dfb00315c0" />
 
 ## Architecture
-```
-PDF Upload (Streamlit)
-      ↓
-Producer → Kafka Topic (pdf-chunks)
-      ↓
-Consumer → LangChain + Gemini API
-      ↓
-Summary → Streamlit UI
-```
+<img width="731" height="471" alt="image" src="https://github.com/user-attachments/assets/96c30838-6973-4444-92ff-f5dfb00315c0" />
 
 ## Tech Stack
 
